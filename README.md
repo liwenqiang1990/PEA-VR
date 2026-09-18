@@ -117,8 +117,6 @@ literature baseline; no literature-baseline code is kept here.
 
 ## Datasets
 
-Both are third-party releases; neither is ours.
-
 | Dataset | Source |
 |---|---|
 | LongEnough | Hasselquist et al., "Raising the Bar: Improved Fingerprinting Attacks and Defenses for Video Streaming Traffic", *PoPETs* 2024(4):167-184. [doi:10.56553/popets-2024-0112](https://doi.org/10.56553/popets-2024-0112)<br>Variable-bandwidth collection extended by Carlson et al., "Understanding and Improving Video Fingerprinting Attack Accuracy under Challenging Conditions", *WPES* 2024:141-154. [doi:10.1145/3689943.3695045](https://doi.org/10.1145/3689943.3695045) |
