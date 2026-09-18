@@ -1,0 +1,39 @@
+# PEA-VR is the code repository for the paper: data preparation and experiments only.
+# The manuscript, its notes, experiment artifacts, model weights, datasets, literature-baseline
+# code and reference PDFs all live elsewhere and must not be committed here.
+
+# --- paper materials (kept in a separate repository) ---
+*.tex
+*.bib
+*.pdf
+notes/
+references/
+
+# --- datasets, model weights, run outputs ---
+# `datasets/` is where the scripts look for the data by default (place it or symlink it there);
+# `runs/` is the default output root. Override either with PEA_VR_DATA / PEA_VR_*_CACHE.
+datasets/
+runs/
+**/packet_cache*/
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- editors / OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude
+.codex
+
+# --- tmp ---
+tmp/

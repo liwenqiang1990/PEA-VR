@@ -1,0 +1,10 @@
+# Verified with Python 3.12. The bounds are what the code was last run against, not hard limits.
+numpy>=2.0,<3
+torch>=2.4
+scikit-learn>=1.4
+
+# Last verified: numpy 2.4.3, torch 2.11.0+cu126, scikit-learn 1.8.0
+#
+# Device: the training scripts take --device {auto,cpu,cuda} and default to auto.
+# crossbw_matrix.py and unseen_bandwidth_eval.py default to --device cuda and will raise if no
+# GPU is present; pass --device cpu to run them without one. multiprotocol_eval.py is CPU-only.
