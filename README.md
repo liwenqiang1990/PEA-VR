@@ -7,8 +7,8 @@ Paper: *PEA-VR: Few-Shot Encrypted Video Recognition via Partial-Evidence Alignm
 Streaming* (Computer Networks).
 
 This repository holds the code for the method the paper proposes: data preparation, training, and
-the evaluations behind its reported numbers. It does **not** contain the manuscript, figure
-scripts, comparison baselines, datasets, model checkpoints, or result artifacts.
+the evaluations behind its reported numbers. The manuscript, datasets, model checkpoints and run
+artifacts are not part of it.
 
 ## Layout
 
@@ -112,8 +112,7 @@ spelling, because run directories and saved tags depend on them:
 | global pooling (ablation arm) | `MultiScaleTemporalEncoder`, in `train_longenough_offset0_multiscale_baseline.py` |
 | temporal tail truncation | the `--span-trunc-prob` / `--span-trunc-min` flags and `span_truncate` |
 
-`*_baseline.py` therefore means the **global-pooling ablation arm of the proposed method**, not a
-literature baseline; no literature-baseline code is kept here.
+`*_baseline.py` refers to the **global-pooling ablation arm of the proposed method**.
 
 ## Datasets
 
