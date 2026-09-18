@@ -26,7 +26,7 @@ runs/            created on first run; where outputs are written (not tracked)
 pip install -r requirements.txt
 ```
 
-Neither dataset ships here: one is ours and large, the other is a third-party release. Place or
+Neither dataset ships here; both are third-party releases (see [Datasets](#datasets)). Place or
 symlink them under `datasets/` at the repository root, which git ignores:
 
 ```
@@ -117,7 +117,12 @@ literature baseline; no literature-baseline code is kept here.
 
 ## Datasets
 
-| Dataset | Where | Needed for |
-|---|---|---|
-| LongEnough (ours) | external drive; the offset-0 packet cache is 407 MB and is the only part the model trains on | everything in `experiments/` |
-| YDMS | public release by Loh et al., *Scientific Data* 9:293 (2022) | the YDMS input builders in `data/` |
+Both are third-party releases; neither is ours.
+
+| Dataset | Source |
+|---|---|
+| LongEnough | Hasselquist et al., "Raising the Bar: Improved Fingerprinting Attacks and Defenses for Video Streaming Traffic", *PoPETs* 2024(4):167-184. [doi:10.56553/popets-2024-0112](https://doi.org/10.56553/popets-2024-0112)<br>Variable-bandwidth collection extended by Carlson et al., "Understanding and Improving Video Fingerprinting Attack Accuracy under Challenging Conditions", *WPES* 2024:141-154. [doi:10.1145/3689943.3695045](https://doi.org/10.1145/3689943.3695045) |
+| YDMS | Loh et al., "YouTube Dataset on Mobile Streaming for Internet Traffic Modeling and Streaming Analysis", *Scientific Data* 9:293 (2022). [doi:10.1038/s41597-022-01418-y](https://doi.org/10.1038/s41597-022-01418-y) |
+
+We use the undefended offset-0 subset of LongEnough's extended variable-bandwidth collection:
+100 video identities x 4 bandwidth presets x 10 sessions = 4,000 sessions, first 60 s of each.
