@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Per-sample input standardization, as a candidate fix for the cross-bandwidth collapse.
 
-Finding that motivates this:
-on YDMS, PEA-VR scores 32.80 / 37.76 on the two cross-bandwidth scenarios while the reproduced
-Gansekoele baseline scores 64.78 / 60.69. The two differ in how the input is scaled --
+Finding that motivates this: on YDMS, PEA-VR scores 32.80 / 37.76 on the two cross-bandwidth
+scenarios, well below a deep-metric comparison method (Gansekoele et al., WI-IAT 2023) at
+64.78 / 60.69. The two differ in how the input is scaled --
 `normalize_from_base` applies log1p plus base-split z-scores, keeping each session's ABSOLUTE
 byte scale, whereas Gansekoele "standardized each sample individually" (its Sec. IV), which
 removes the bandwidth-induced scale factor that cross-bandwidth matching has to see past.

@@ -1,14 +1,14 @@
 # PEA-VR
 
-Reproduction code for **PEA-VR** (Partial-Evidence Alignment for Video Recognition) — recognizing
+Official implementation of **PEA-VR** (Partial-Evidence Alignment for Video Recognition) — recognizing
 encrypted video from traffic alone, few-shot, robust across ABR bitrate regimes.
 
 Paper: *PEA-VR: Few-Shot Encrypted Video Recognition via Partial-Evidence Alignment under Adaptive
 Streaming* (Computer Networks).
 
-This repository holds the code for the proposed method: data preparation, training, and the
-evaluations that produce its reported numbers. It does **not** contain the manuscript, figure
-scripts, literature-baseline reimplementations, datasets, model checkpoints, or result artifacts.
+This repository holds the code for the method the paper proposes: data preparation, training, and
+the evaluations behind its reported numbers. It does **not** contain the manuscript, figure
+scripts, comparison baselines, datasets, model checkpoints, or result artifacts.
 
 ## Layout
 

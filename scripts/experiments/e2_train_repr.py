@@ -13,10 +13,10 @@ two optional, physically-motivated representation levers:
                            partial observation of the SAME identity -> teaches completeness/span
                            invariance).
 
-Baseline mode (both off) is the reproduction gate: it must land near the frozen AMP cross-mode
-test accuracy (~86 at this script's default capacity, d_model 64 / embedding 96) to prove the
-copied training loop is faithful before any variant is trusted. The headline configuration in the
-paper is larger (--d-model 256 --embedding-dim 512) and scores higher.
+Baseline mode (both levers off) is the control: it must land near the frozen AMP cross-mode test
+accuracy (~86 at this script's default capacity, d_model 64 / embedding 96), which confirms the
+levers are the only thing changing before any variant is trusted. The headline configuration in
+the paper is larger (--d-model 256 --embedding-dim 512) and scores higher.
 """
 from __future__ import annotations
 import argparse, json, math
