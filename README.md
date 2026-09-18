@@ -26,8 +26,8 @@ runs/            created on first run; where outputs are written (not tracked)
 pip install -r requirements.txt
 ```
 
-Neither dataset ships here; both are third-party releases (see [Datasets](#datasets)). Place or
-symlink them under `datasets/` at the repository root, which git ignores:
+Neither dataset ships here. Place or symlink them under `datasets/` at the repository root, which
+git ignores:
 
 ```
 datasets/LongEnough_offset0_60s_packet_cache_v1/     # LongEnough, offset-0 packet cache
