@@ -1,0 +1,1856 @@
+{
+  "seeds": [
+    20260814,
+    20260815,
+    20260816
+  ],
+  "runs": [
+    {
+      "name": "longenough_protonet_20260814",
+      "config": "configs/longenough_protonet_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_protonet_20260815",
+      "config": "configs/longenough_protonet_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_protonet_20260816",
+      "config": "configs/longenough_protonet_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_deepmetric_20260814",
+      "config": "configs/longenough_deepmetric_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_deepmetric_20260815",
+      "config": "configs/longenough_deepmetric_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_deepmetric_20260816",
+      "config": "configs/longenough_deepmetric_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_coda_20260814",
+      "config": "configs/longenough_coda_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_coda_20260815",
+      "config": "configs/longenough_coda_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_coda_20260816",
+      "config": "configs/longenough_coda_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_cl_metaflow_20260814",
+      "config": "configs/longenough_cl_metaflow_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_cl_metaflow_20260815",
+      "config": "configs/longenough_cl_metaflow_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_cl_metaflow_20260816",
+      "config": "configs/longenough_cl_metaflow_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_global_amp_20260814",
+      "config": "configs/longenough_global_amp_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure4",
+        "table2",
+        "table3",
+        "table4",
+        "table6_open",
+        "table7",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_global_amp_20260815",
+      "config": "configs/longenough_global_amp_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure4",
+        "table2",
+        "table3",
+        "table4",
+        "table6_open",
+        "table7",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_global_amp_20260816",
+      "config": "configs/longenough_global_amp_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "figure4",
+        "table2",
+        "table3",
+        "table4",
+        "table6_open",
+        "table7",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_diagonal_20260814",
+      "config": "configs/longenough_diagonal_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_diagonal_20260815",
+      "config": "configs/longenough_diagonal_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_diagonal_20260816",
+      "config": "configs/longenough_diagonal_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_20260814",
+      "config": "configs/longenough_soft_dtw_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation",
+        "table2",
+        "table3",
+        "table6_open",
+        "table7",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_20260815",
+      "config": "configs/longenough_soft_dtw_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation",
+        "table2",
+        "table3",
+        "table6_open",
+        "table7",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_20260816",
+      "config": "configs/longenough_soft_dtw_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation",
+        "table2",
+        "table3",
+        "table6_open",
+        "table7",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_pea_vr_20260814",
+      "config": "configs/longenough_pea_vr_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure4",
+        "figure9",
+        "real_overlap",
+        "table2",
+        "table3",
+        "table4",
+        "table5",
+        "table6_open",
+        "table7",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_pea_vr_20260815",
+      "config": "configs/longenough_pea_vr_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure4",
+        "figure9",
+        "real_overlap",
+        "table2",
+        "table3",
+        "table4",
+        "table5",
+        "table6_open",
+        "table7",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_pea_vr_20260816",
+      "config": "configs/longenough_pea_vr_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "figure4",
+        "real_overlap",
+        "table2",
+        "table3",
+        "table4",
+        "table5",
+        "table6_open",
+        "table7",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_transformer_20260814",
+      "config": "configs/longenough_transformer_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_transformer_20260815",
+      "config": "configs/longenough_transformer_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "longenough_transformer_20260816",
+      "config": "configs/longenough_transformer_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation",
+        "table3",
+        "table6_open",
+        "table7"
+      ]
+    },
+    {
+      "name": "ydms_protonet_20260814",
+      "config": "configs/ydms_protonet_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_protonet_20260815",
+      "config": "configs/ydms_protonet_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_protonet_20260816",
+      "config": "configs/ydms_protonet_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_deepmetric_20260814",
+      "config": "configs/ydms_deepmetric_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_deepmetric_20260815",
+      "config": "configs/ydms_deepmetric_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_deepmetric_20260816",
+      "config": "configs/ydms_deepmetric_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_coda_20260814",
+      "config": "configs/ydms_coda_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_coda_20260815",
+      "config": "configs/ydms_coda_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_coda_20260816",
+      "config": "configs/ydms_coda_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_cl_metaflow_20260814",
+      "config": "configs/ydms_cl_metaflow_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_cl_metaflow_20260815",
+      "config": "configs/ydms_cl_metaflow_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_cl_metaflow_20260816",
+      "config": "configs/ydms_cl_metaflow_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_global_amp_20260814",
+      "config": "configs/ydms_global_amp_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_global_amp_20260815",
+      "config": "configs/ydms_global_amp_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_global_amp_20260816",
+      "config": "configs/ydms_global_amp_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_diagonal_20260814",
+      "config": "configs/ydms_diagonal_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_diagonal_20260815",
+      "config": "configs/ydms_diagonal_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_diagonal_20260816",
+      "config": "configs/ydms_diagonal_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_20260814",
+      "config": "configs/ydms_soft_dtw_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation",
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_20260815",
+      "config": "configs/ydms_soft_dtw_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation",
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_20260816",
+      "config": "configs/ydms_soft_dtw_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation",
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_pea_vr_20260814",
+      "config": "configs/ydms_pea_vr_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_pea_vr_20260815",
+      "config": "configs/ydms_pea_vr_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_pea_vr_20260816",
+      "config": "configs/ydms_pea_vr_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_transformer_20260814",
+      "config": "configs/ydms_transformer_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_transformer_20260815",
+      "config": "configs/ydms_transformer_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "ydms_transformer_20260816",
+      "config": "configs/ydms_transformer_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table2",
+        "truncation"
+      ]
+    },
+    {
+      "name": "longenough_uniform_fusion_20260814",
+      "config": "configs/longenough_uniform_fusion_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table4"
+      ]
+    },
+    {
+      "name": "longenough_uniform_fusion_20260815",
+      "config": "configs/longenough_uniform_fusion_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table4"
+      ]
+    },
+    {
+      "name": "longenough_uniform_fusion_20260816",
+      "config": "configs/longenough_uniform_fusion_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table4"
+      ]
+    },
+    {
+      "name": "longenough_no_prefix_20260814",
+      "config": "configs/longenough_no_prefix_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table4"
+      ]
+    },
+    {
+      "name": "longenough_no_prefix_20260815",
+      "config": "configs/longenough_no_prefix_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table4"
+      ]
+    },
+    {
+      "name": "longenough_no_prefix_20260816",
+      "config": "configs/longenough_no_prefix_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table4"
+      ]
+    },
+    {
+      "name": "longenough_no_warp_20260814",
+      "config": "configs/longenough_no_warp_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table4",
+        "table3"
+      ]
+    },
+    {
+      "name": "longenough_no_warp_20260815",
+      "config": "configs/longenough_no_warp_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table4",
+        "table3"
+      ]
+    },
+    {
+      "name": "longenough_no_warp_20260816",
+      "config": "configs/longenough_no_warp_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table4",
+        "table3"
+      ]
+    },
+    {
+      "name": "longenough_no_ali_20260814",
+      "config": "configs/longenough_no_ali_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table4",
+        "table3"
+      ]
+    },
+    {
+      "name": "longenough_no_ali_20260815",
+      "config": "configs/longenough_no_ali_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table4",
+        "table3"
+      ]
+    },
+    {
+      "name": "longenough_no_ali_20260816",
+      "config": "configs/longenough_no_ali_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table4",
+        "table3"
+      ]
+    },
+    {
+      "name": "longenough_no_sup_20260814",
+      "config": "configs/longenough_no_sup_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table4"
+      ]
+    },
+    {
+      "name": "longenough_no_sup_20260815",
+      "config": "configs/longenough_no_sup_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table4"
+      ]
+    },
+    {
+      "name": "longenough_no_sup_20260816",
+      "config": "configs/longenough_no_sup_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table4"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_mean_20260814",
+      "config": "configs/longenough_aggregation_mean_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_mean_20260815",
+      "config": "configs/longenough_aggregation_mean_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_mean_20260816",
+      "config": "configs/longenough_aggregation_mean_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_support_max_20260814",
+      "config": "configs/longenough_aggregation_support_max_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_support_max_20260815",
+      "config": "configs/longenough_aggregation_support_max_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_support_max_20260816",
+      "config": "configs/longenough_aggregation_support_max_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_uniform_lse_20260814",
+      "config": "configs/longenough_aggregation_uniform_lse_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_uniform_lse_20260815",
+      "config": "configs/longenough_aggregation_uniform_lse_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_uniform_lse_20260816",
+      "config": "configs/longenough_aggregation_uniform_lse_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_similarity_20260814",
+      "config": "configs/longenough_aggregation_similarity_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_similarity_20260815",
+      "config": "configs/longenough_aggregation_similarity_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_similarity_20260816",
+      "config": "configs/longenough_aggregation_similarity_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_overlap_20260814",
+      "config": "configs/longenough_aggregation_overlap_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_overlap_20260815",
+      "config": "configs/longenough_aggregation_overlap_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_aggregation_overlap_20260816",
+      "config": "configs/longenough_aggregation_overlap_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "table5"
+      ]
+    },
+    {
+      "name": "longenough_protonet_heldout_bw1_20260814",
+      "config": "configs/longenough_protonet_heldout_bw1_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_protonet_heldout_bw1_20260815",
+      "config": "configs/longenough_protonet_heldout_bw1_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_protonet_heldout_bw1_20260816",
+      "config": "configs/longenough_protonet_heldout_bw1_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_deepmetric_heldout_bw1_20260814",
+      "config": "configs/longenough_deepmetric_heldout_bw1_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_deepmetric_heldout_bw1_20260815",
+      "config": "configs/longenough_deepmetric_heldout_bw1_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_deepmetric_heldout_bw1_20260816",
+      "config": "configs/longenough_deepmetric_heldout_bw1_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_coda_heldout_bw1_20260814",
+      "config": "configs/longenough_coda_heldout_bw1_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_coda_heldout_bw1_20260815",
+      "config": "configs/longenough_coda_heldout_bw1_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_coda_heldout_bw1_20260816",
+      "config": "configs/longenough_coda_heldout_bw1_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_cl_metaflow_heldout_bw1_20260814",
+      "config": "configs/longenough_cl_metaflow_heldout_bw1_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_cl_metaflow_heldout_bw1_20260815",
+      "config": "configs/longenough_cl_metaflow_heldout_bw1_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_cl_metaflow_heldout_bw1_20260816",
+      "config": "configs/longenough_cl_metaflow_heldout_bw1_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_global_amp_heldout_bw1_20260814",
+      "config": "configs/longenough_global_amp_heldout_bw1_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_global_amp_heldout_bw1_20260815",
+      "config": "configs/longenough_global_amp_heldout_bw1_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_global_amp_heldout_bw1_20260816",
+      "config": "configs/longenough_global_amp_heldout_bw1_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_pea_vr_heldout_bw1_20260814",
+      "config": "configs/longenough_pea_vr_heldout_bw1_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_pea_vr_heldout_bw1_20260815",
+      "config": "configs/longenough_pea_vr_heldout_bw1_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_pea_vr_heldout_bw1_20260816",
+      "config": "configs/longenough_pea_vr_heldout_bw1_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw1",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_protonet_heldout_bw8_20260814",
+      "config": "configs/longenough_protonet_heldout_bw8_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_protonet_heldout_bw8_20260815",
+      "config": "configs/longenough_protonet_heldout_bw8_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_protonet_heldout_bw8_20260816",
+      "config": "configs/longenough_protonet_heldout_bw8_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_deepmetric_heldout_bw8_20260814",
+      "config": "configs/longenough_deepmetric_heldout_bw8_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_deepmetric_heldout_bw8_20260815",
+      "config": "configs/longenough_deepmetric_heldout_bw8_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_deepmetric_heldout_bw8_20260816",
+      "config": "configs/longenough_deepmetric_heldout_bw8_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_coda_heldout_bw8_20260814",
+      "config": "configs/longenough_coda_heldout_bw8_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_coda_heldout_bw8_20260815",
+      "config": "configs/longenough_coda_heldout_bw8_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_coda_heldout_bw8_20260816",
+      "config": "configs/longenough_coda_heldout_bw8_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_cl_metaflow_heldout_bw8_20260814",
+      "config": "configs/longenough_cl_metaflow_heldout_bw8_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_cl_metaflow_heldout_bw8_20260815",
+      "config": "configs/longenough_cl_metaflow_heldout_bw8_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_cl_metaflow_heldout_bw8_20260816",
+      "config": "configs/longenough_cl_metaflow_heldout_bw8_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_global_amp_heldout_bw8_20260814",
+      "config": "configs/longenough_global_amp_heldout_bw8_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_global_amp_heldout_bw8_20260815",
+      "config": "configs/longenough_global_amp_heldout_bw8_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_global_amp_heldout_bw8_20260816",
+      "config": "configs/longenough_global_amp_heldout_bw8_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_pea_vr_heldout_bw8_20260814",
+      "config": "configs/longenough_pea_vr_heldout_bw8_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_pea_vr_heldout_bw8_20260815",
+      "config": "configs/longenough_pea_vr_heldout_bw8_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_pea_vr_heldout_bw8_20260816",
+      "config": "configs/longenough_pea_vr_heldout_bw8_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": "bw8",
+      "analyses": [
+        "table6_heldout"
+      ]
+    },
+    {
+      "name": "longenough_tokens_15_20260814",
+      "config": "configs/longenough_tokens_15_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_tokens_15_20260815",
+      "config": "configs/longenough_tokens_15_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_tokens_20_20260814",
+      "config": "configs/longenough_tokens_20_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_tokens_20_20260815",
+      "config": "configs/longenough_tokens_20_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_tokens_40_20260814",
+      "config": "configs/longenough_tokens_40_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_tokens_40_20260815",
+      "config": "configs/longenough_tokens_40_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_tokens_60_20260814",
+      "config": "configs/longenough_tokens_60_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_tokens_60_20260815",
+      "config": "configs/longenough_tokens_60_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_gap_0.0_20260814",
+      "config": "configs/longenough_gap_0.0_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_gap_0.0_20260815",
+      "config": "configs/longenough_gap_0.0_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_gap_0.05_20260814",
+      "config": "configs/longenough_gap_0.05_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_gap_0.05_20260815",
+      "config": "configs/longenough_gap_0.05_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_gap_0.2_20260814",
+      "config": "configs/longenough_gap_0.2_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_gap_0.2_20260815",
+      "config": "configs/longenough_gap_0.2_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_gap_0.4_20260814",
+      "config": "configs/longenough_gap_0.4_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_gap_0.4_20260815",
+      "config": "configs/longenough_gap_0.4_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_lambda_z_0.0_20260814",
+      "config": "configs/longenough_lambda_z_0.0_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_lambda_z_0.0_20260815",
+      "config": "configs/longenough_lambda_z_0.0_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_lambda_z_0.25_20260814",
+      "config": "configs/longenough_lambda_z_0.25_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_lambda_z_0.25_20260815",
+      "config": "configs/longenough_lambda_z_0.25_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_lambda_z_0.75_20260814",
+      "config": "configs/longenough_lambda_z_0.75_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_lambda_z_0.75_20260815",
+      "config": "configs/longenough_lambda_z_0.75_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_lambda_z_1.0_20260814",
+      "config": "configs/longenough_lambda_z_1.0_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_lambda_z_1.0_20260815",
+      "config": "configs/longenough_lambda_z_1.0_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "figure9"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.01_20260814",
+      "config": "configs/longenough_soft_dtw_gamma_0.01_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.01_20260815",
+      "config": "configs/longenough_soft_dtw_gamma_0.01_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.01_20260816",
+      "config": "configs/longenough_soft_dtw_gamma_0.01_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.05_20260814",
+      "config": "configs/longenough_soft_dtw_gamma_0.05_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.05_20260815",
+      "config": "configs/longenough_soft_dtw_gamma_0.05_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.05_20260816",
+      "config": "configs/longenough_soft_dtw_gamma_0.05_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.2_20260814",
+      "config": "configs/longenough_soft_dtw_gamma_0.2_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.2_20260815",
+      "config": "configs/longenough_soft_dtw_gamma_0.2_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.2_20260816",
+      "config": "configs/longenough_soft_dtw_gamma_0.2_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.5_20260814",
+      "config": "configs/longenough_soft_dtw_gamma_0.5_20260814.yaml",
+      "dataset": "longenough",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.5_20260815",
+      "config": "configs/longenough_soft_dtw_gamma_0.5_20260815.yaml",
+      "dataset": "longenough",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "longenough_soft_dtw_gamma_0.5_20260816",
+      "config": "configs/longenough_soft_dtw_gamma_0.5_20260816.yaml",
+      "dataset": "longenough",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.01_20260814",
+      "config": "configs/ydms_soft_dtw_gamma_0.01_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.01_20260815",
+      "config": "configs/ydms_soft_dtw_gamma_0.01_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.01_20260816",
+      "config": "configs/ydms_soft_dtw_gamma_0.01_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.05_20260814",
+      "config": "configs/ydms_soft_dtw_gamma_0.05_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.05_20260815",
+      "config": "configs/ydms_soft_dtw_gamma_0.05_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.05_20260816",
+      "config": "configs/ydms_soft_dtw_gamma_0.05_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.2_20260814",
+      "config": "configs/ydms_soft_dtw_gamma_0.2_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.2_20260815",
+      "config": "configs/ydms_soft_dtw_gamma_0.2_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.2_20260816",
+      "config": "configs/ydms_soft_dtw_gamma_0.2_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.5_20260814",
+      "config": "configs/ydms_soft_dtw_gamma_0.5_20260814.yaml",
+      "dataset": "ydms",
+      "seed": 20260814,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.5_20260815",
+      "config": "configs/ydms_soft_dtw_gamma_0.5_20260815.yaml",
+      "dataset": "ydms",
+      "seed": 20260815,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    },
+    {
+      "name": "ydms_soft_dtw_gamma_0.5_20260816",
+      "config": "configs/ydms_soft_dtw_gamma_0.5_20260816.yaml",
+      "dataset": "ydms",
+      "seed": 20260816,
+      "heldout": null,
+      "analyses": [
+        "soft_dtw_validation"
+      ]
+    }
+  ]
+}

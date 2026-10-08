@@ -1,0 +1,74 @@
+schema_version: 2
+data:
+  dataset: ydms
+  window: 60.0
+  scales:
+  - 100
+  - 500
+  - 2000
+  exclude_condition: null
+model:
+  kind: global_amp
+  channels:
+  - 128
+  - 256
+  tokens: 30
+  global_dim: 512
+  projection_hidden: 1024
+  alignment_dim: 128
+  dropout: 0.1
+  fusion: learned
+matching:
+  alignment: none
+  aggregation: support_max
+  delta: 0.2
+  gap: 0.1
+  gamma: 0.1
+  soft_dtw_gamma: 0.1
+  lambda_z: 1.0
+  beta_overlap: 1.0
+  beta_similarity: 1.0
+  tau_c: 0.2
+  tau_s: 0.1
+  epsilon: 1.0e-08
+  pair_chunk: 128
+views:
+  prefix_probability: 0.5
+  prefix_min: 0.3
+  warp_probability: 0.0
+  warp_max: 0.3
+training:
+  seed: 20260815
+  episodes: 30000
+  ways: 10
+  shots: 2
+  queries: 4
+  lr: 0.0001
+  min_lr: 1.0e-06
+  weight_decay: 0.0001
+  betas:
+  - 0.9
+  - 0.999
+  adam_epsilon: 1.0e-08
+  gradient_clip: 1.0
+  tau_e: 0.1
+  tau_sup: 0.1
+  lambda_ali: 0.0
+  lambda_sup: 0.2
+  sigma_w: 2.0
+  eval_every: 500
+  save_every: 1000
+  keep_checkpoints: 3
+  log_every: 10
+  query_chunk: 4
+  alignment_chunk: 8
+  deterministic: true
+  device: auto
+  threads: 4
+baseline:
+  triplet_margin: 0.2
+  prototype_weight: 0.2
+  domain_weight: 0.1
+  pretrain_episodes: 10000
+  inner_steps: 5
+  inner_lr: 0.01
